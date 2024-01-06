@@ -24,7 +24,7 @@ export default function Dropdown() {
           rounded-md   
       ${
         toggleDropdown
-          ? "showDropdown md:showDropdownMd"
+          ? "showDropdown md:showDropdownMd min-[1199px]:top-[60px] "
           : "dropdown md:dropdownMd"
       }`}
       >

@@ -51,20 +51,18 @@
   }
   .showDropdownMd {
     position: absolute;
-    top: 60px;
+    top: 90px;
     transition: all 0.5s cubic-bezier(0, 1, 0, 1);
   }
 
   .accordion {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
   }
 
   .showAccordion {
     height: auto;
     max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
   }
 
   .bgLowOpacity {

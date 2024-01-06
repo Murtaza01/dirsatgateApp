@@ -21,10 +21,13 @@ export default function Accordion({ title, content }) {
         </h2>
       </div>
       <div
-        className={`text-center text-lg 
+        className={`text-center text-lg transition-all  ease-in-out
        ${toggleArrow ? "showAccordion" : "accordion"} `}
       >
-        <div className="h-[3px] w-6/12 my-0 mx-auto bg-slate-800"></div>
+        <div
+          className="h-[3px] w-6/12 my-0 mx-auto
+         bg-slate-800 "
+        ></div>
 
         <p className="">{content}</p>
       </div>
